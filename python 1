@@ -1,0 +1,32 @@
+# string concatenation
+surname = "Oyediran"
+first_name = "Elizabeth"
+print("My name is" " " + surname + " " + first_name)
+"""
+multiline comment
+"""
+#String Interpolation
+school = "LAUTECH"
+location = "Ogbomosho"
+print(f"The school am attending is {school}, and is located at {location}")
+#String slicing
+dept = "computer science"
+dept2 = dept[0:83]
+print (dept2)
+#number
+length = 5
+breadth = 5
+Area = length * breadth
+print(f"the area of the table is {Area}")
+# Comparism Operation
+print(3<=5)
+# conditional statement
+age = input('what is your age? ')
+age = int(age)
+if age >= 18:
+    print('you can vote or be voted for')
+else:
+        print('you cant vote')
+ light_color = input("what is the color of the light:")    
+ if light_color == "yellow":
+ print("Ready to go")
